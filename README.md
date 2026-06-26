@@ -1,273 +1,404 @@
-# NoteFlow - Music Note Reading UX/UI Case Study
+# NoteFlow – UX/UI Mobile App Case Study
 
-NoteFlow is a UX/UI case study for a mobile application that helps beginner music students improve their note-reading skills through short exercises, instant feedback, flashcards, and progress tracking.
+NoteFlow is a mobile UX/UI case study for a beginner-friendly music note-reading practice app.
 
-This project focuses on designing a simple, friendly, and motivating learning experience for users who are new to reading music notes.
+The app is designed for beginner music students who want to improve note recognition through short exercises, instant feedback, weak note review, and progress tracking.
+
+This project was created as a UX/UI portfolio project using Figma and GitHub documentation.
+
+---
+
+## Cover
+
+![NoteFlow Cover](assets/cover.png)
 
 ---
 
 ## Project Overview
 
-Learning to read music notes can be confusing for beginners. Many students struggle to recognize notes quickly, remember their position on the staff, and practice consistently.
+NoteFlow helps beginner music students practice reading notes on the music staff in a simple and motivating way.
 
-NoteFlow is designed to make note-reading practice easier, more interactive, and less intimidating. The app provides short daily exercises, simple feedback, and progress insights to help learners build confidence step by step.
+The main idea is to make note-reading practice feel:
 
----
+* Short
+* Clear
+* Beginner-friendly
+* Less stressful
+* Motivating
+* Easy to use on mobile
 
-## Problem Statement
-
-Beginner music students often face difficulty in identifying notes on the staff quickly and accurately. Traditional note-reading practice can feel repetitive, slow, and discouraging, especially when learners cannot clearly see their progress.
-
-The challenge is to design a mobile experience that makes note-reading practice simple, engaging, and easy to follow.
-
----
-
-## Goal
-
-The goal of NoteFlow is to help beginner music learners:
-
-- Practice note reading in short sessions
-- Recognize notes faster
-- Receive immediate feedback
-- Track their learning progress
-- Stay motivated through simple and clear interactions
+The project includes UX process documentation, high-fidelity screens, wireframes, design tokens, reusable components, prototype flow, accessibility notes, AI-assisted design documentation, and developer handoff notes.
 
 ---
 
-## Target Users
+## Problem
 
-The main target users are beginner music students who are learning to read sheet music for the first time.
+Beginner music students often struggle to recognize notes quickly on the staff.
 
-They may be:
+Traditional note-reading practice can feel repetitive, confusing, or stressful, especially for students who are just starting music theory or piano.
 
-- Music school students
-- Self-taught beginners
-- Students learning piano, violin, guitar, or other instruments
-- People who want to improve their basic music theory skills
+Beginner users may also not know which notes they should review or how much progress they are making.
 
 ---
 
-## User Persona
+## Target User
 
-### Persona: Sara
+The target user is a beginner music student.
 
-- Age: 17
-- Role: Beginner piano student
-- Goal: Learn to recognize notes faster while practicing at home
-- Pain Point: She often forgets note positions on the staff and feels slow when reading sheet music
-- Need: A simple and motivating way to practice note recognition every day
+This user may be:
+
+* A beginner piano student
+* A student learning basic music theory
+* Someone who recognizes notes slowly
+* Someone who prefers short daily practice
+* Someone who needs clear feedback and visible progress
+
+Example proto-persona:
+
+**Sara, 17**
+A beginner piano student who wants to recognize notes faster but sometimes confuses notes on the staff. She needs short, simple, and motivating practice.
+
+---
+
+## Product Goal
+
+The goal of NoteFlow is to help beginner music students improve note recognition through:
+
+* Short note-reading exercises
+* Multiple-choice questions
+* Instant feedback
+* Weak note review
+* Practice results
+* Progress tracking
+* A calm and supportive mobile interface
+
+---
+
+## Main User Flow
+
+The main user flow is:
+
+```text
+Welcome → Home → Practice → Result → Progress
+```
+
+Flow explanation:
+
+1. The user opens the app.
+2. The user sees the Welcome Screen.
+3. The user enters the Home Screen.
+4. The user starts a short practice session.
+5. The user answers note-reading questions.
+6. The user sees the result and accuracy.
+7. The user reviews weak notes or checks progress.
+
+---
+
+## Screens
+
+The project includes five main mobile screens:
+
+### 1. Welcome Screen
+
+Introduces the app and gives the user a clear starting point.
+
+![Welcome Screen](assets/welcome-screen.png)
+
+### 2. Home Screen
+
+Shows today’s practice, quick actions, and a progress preview.
+
+![Home Screen](assets/home-screen.png)
+
+### 3. Practice Screen
+
+Shows a note-reading question with multiple-choice answers.
+
+![Practice Screen](assets/practice-screen.png)
+
+### 4. Result Screen
+
+Shows score, accuracy, weak notes, and next actions.
+
+![Result Screen](assets/result-screen.png)
+
+### 5. Progress Screen
+
+Shows practice streak, average accuracy, weekly chart, weak notes, and recommended practice.
+
+![Progress Screen](assets/progress-screen.png)
 
 ---
 
 ## UX Process
 
-The design process for this project includes:
+The UX process was documented in separate files inside the `docs` folder.
 
-1. Understanding the problem
-2. Defining the target user
-3. Creating a user persona
-4. Designing the main user flow
-5. Creating low-fidelity wireframes
-6. Designing high-fidelity UI screens
-7. Building an interactive prototype in Figma
-8. Planning a simple usability test
+### UX Foundations
 
----
+Defines the user, problem, user needs, product goal, and main UX goals.
 
-## User Flow
+[Read UX Foundations](docs/01-ux-foundations.md)
 
-The main user flow is:
+### Design Thinking
 
-```text
-Welcome Screen
-      ↓
-Home Screen
-      ↓
-Start Practice
-      ↓
-Note Recognition Question
-      ↓
-Instant Feedback
-      ↓
-Result Screen
-      ↓
-Progress Screen
-```
+Explains the process from empathy and problem definition to ideation, prototype, and future testing.
 
----
+[Read Design Thinking](docs/02-design-thinking.md)
 
-## Key Features
+### UX Research
 
-### 1. Daily Note Practice
+Includes proto-research, assumptions, research questions, insights, and research limitations.
 
-Users can complete short note-reading exercises every day.
+[Read UX Research](docs/03-ux-research.md)
 
-### 2. Instant Feedback
+### Affinity Diagram
 
-After each answer, the app shows whether the selected note was correct or incorrect.
+Organizes possible user needs into groups such as note recognition problems, short practice, feedback, and motivation.
 
-### 3. Flashcards
+[Read Affinity Diagram](docs/04-affinity-diagram.md)
 
-Users can review music notes using simple flashcards.
+### Proto-Persona
 
-### 4. Progress Tracking
+Defines the main target user and how their goals and pain points shaped the design.
 
-The app shows accuracy, practice streak, and weak notes.
+[Read Persona](docs/05-persona.md)
 
-### 5. Beginner-Friendly Interface
+### User Flow
 
-The interface is designed to be simple, calm, and easy to understand for new learners.
+Shows the main path the user takes through the app.
+
+[Read User Flow](docs/06-user-flow.md)
+
+### Information Architecture
+
+Explains how the app content, screens, and navigation are organized.
+
+[Read Information Architecture](docs/07-information-architecture.md)
+
+### Wireframes
+
+Shows the low-fidelity structure of the main screens.
+
+[Read Wireframes](docs/08-wireframes.md)
 
 ---
 
-## Main Screens
+## Wireframes
 
-The mobile app includes the following screens:
+The wireframes were created to focus on layout, content priority, and user flow before final UI design.
 
-1. Welcome Screen
-2. Home Screen
-3. Practice Screen
-4. Feedback State
-5. Result Screen
-6. Progress Screen
-7. Flashcards Screen
+![Welcome Wireframe](exports/wireframe-welcome.png)
 
----
+![Home Wireframe](exports/wireframe-home.png)
 
-## Information Architecture
+![Practice Wireframe](exports/wireframe-practice.png)
 
-```text
-NoteFlow
-│
-├── Welcome
-│
-├── Home
-│   ├── Daily Practice
-│   ├── Flashcards
-│   └── Progress
-│
-├── Practice
-│   ├── Question
-│   ├── Answer Options
-│   └── Feedback
-│
-├── Results
-│   ├── Score
-│   ├── Accuracy
-│   └── Weak Notes
-│
-└── Progress
-    ├── Streak
-    ├── Accuracy
-    └── Recommended Practice
-```
+![Result Wireframe](exports/wireframe-result.png)
+
+![Progress Wireframe](exports/wireframe-progress.png)
 
 ---
 
-## Design Decisions
+## Design System
 
-### Simple Learning Path
+A small design system was created to keep the interface consistent and easier to hand off to frontend development.
 
-The app avoids overwhelming beginners with too many features. The main action is clear: start a short practice session.
+The design system includes:
 
-### Immediate Feedback
+* Design tokens
+* Colors
+* Typography
+* Spacing
+* Radius
+* Shadows
+* Buttons
+* Cards
+* Answer options
+* Bottom navigation
+* Progress ring
+* Progress bar
+* Weak note chips
 
-Feedback appears right after each answer to help users learn from mistakes quickly.
+[Read Design System](docs/09-design-system.md)
 
-### Motivation Through Progress
+### Design Tokens
 
-The progress screen helps users see improvement over time, which can increase motivation.
+![Design Tokens](exports/design-tokens.png)
 
-### Friendly Visual Style
+### Components
 
-The visual design should feel calm, educational, and beginner-friendly rather than complex or professional-only.
-
----
-
-## Accessibility Considerations
-
-The design considers basic accessibility principles:
-
-- Clear and readable typography
-- Large touch targets for answer buttons
-- High contrast between text and background
-- Simple language for instructions
-- Feedback supported by both color and text
-- Consistent navigation across screens
-
----
-
-## Usability Testing Plan
-
-A simple usability test can be done with 2 or 3 users.
-
-### Test Task
-
-Ask the user:
-
-"Imagine you want to practice reading music notes for 5 minutes. Start a practice session and complete one question."
-
-### Questions After Test
-
-- Was it clear where to start?
-- Did you understand the question screen?
-- Was the feedback easy to understand?
-- Did the result screen feel useful?
-- What part was confusing?
-
-### Expected Improvement
-
-Based on user feedback, button labels, feedback messages, and the result screen can be improved.
+![Components](exports/components.png)
 
 ---
 
-## Tools
+## Main Components
 
-- Figma
-- FigJam
-- GitHub
+The main reusable components include:
+
+* Button
+* Card
+* Answer Option
+* Bottom Navigation
+* Progress Bar
+* Progress Ring
+* Weak Note Chip
+
+Some components include states such as:
+
+### Button
+
+* Default
+* Secondary
+* Disabled
+
+### Answer Option
+
+* Default
+* Selected
+* Correct
+* Wrong
+
+### Bottom Navigation
+
+* Default
+* Active
 
 ---
 
 ## Prototype
 
-Figma Prototype Link: Coming Soon
+The prototype was created in Figma to show the main user journey.
+
+Main prototype flow:
+
+```text
+Welcome → Home → Practice → Result → Progress
+```
+
+The prototype helps demonstrate how the user moves from starting practice to answering questions, seeing the result, and checking progress.
+
+[Read Prototype Documentation](docs/10-prototype.md)
+
+![Prototype Flow](exports/prototype-flow.png)
 
 ---
 
-## Screenshots
+## Accessibility and Usability
 
-Screenshots will be added after completing the UI design in Figma.
+The design considers basic accessibility and usability principles.
 
-Suggested screenshot sections:
+Key considerations:
 
-- Welcome Screen
-- Home Screen
-- Practice Screen
-- Result Screen
-- Progress Screen
+* Clear visual hierarchy
+* Readable text
+* Large touch-friendly buttons
+* Simple navigation
+* Short practice flow
+* Clear correct/wrong feedback
+* Feedback should not rely only on color
+* Progress should be shown visually and numerically
+
+[Read Accessibility and Usability](docs/11-accessibility-usability.md)
+
+---
+
+## AI-Assisted Design
+
+AI tools were used as a support tool during the design process.
+
+AI helped with:
+
+* Ideation
+* UX research planning
+* Persona structure
+* User flow review
+* UX writing
+* Accessibility review
+* Design system organization
+* Documentation structure
+* Developer handoff planning
+
+AI was used as a design assistant, not as a replacement for design decisions. The final Figma screens, visual style, components, user flow, and documentation were reviewed and adjusted manually.
+
+[Read AI-Assisted Design](docs/12-ai-assisted-design.md)
+
+---
+
+## Developer Handoff
+
+The developer handoff document explains how the design could be implemented by frontend developers.
+
+It includes:
+
+* Screens
+* Components
+* Component states
+* Design tokens
+* Dynamic behavior
+* Assets
+* Accessibility notes
+* Future backend considerations
+
+[Read Developer Handoff](docs/13-developer-handoff.md)
+
+---
+
+## Tools Used
+
+* Figma
+* GitHub
+* AI-assisted design tools for ideation, UX writing, documentation, and review
 
 ---
 
 ## What I Learned
 
-Through this project, I practiced designing a user-centered learning experience for beginner music students. I learned how to define a real user problem, create a simple user flow, design educational UI screens, and think about feedback, motivation, and accessibility in a learning app.
+Through this project, I practiced:
+
+* UX Foundations
+* Design Thinking
+* UX Research Planning
+* Affinity Diagram
+* Persona
+* User Flow
+* Information Architecture
+* Wireframing
+* UI Design Principles
+* Design Tokens
+* Figma Components
+* Prototyping
+* Accessibility and Usability Thinking
+* AI-Assisted Product Design
+* Developer Handoff Documentation
 
 ---
 
 ## Future Improvements
 
-Possible future improvements include:
+If I had more time, I would:
 
-- Adding rhythm practice
-- Adding sound-based note recognition
-- Supporting different instruments
-- Adding difficulty levels
-- Adding dark mode
-- Adding teacher-student progress sharing
+* Conduct real user interviews with beginner music students
+* Test the prototype with 2–3 users
+* Improve accessibility with contrast checks
+* Add more answer states and feedback variations
+* Add more realistic note-reading questions
+* Create a frontend version using React or React Native
+* Add backend support for saved progress and weak notes
+* Add analytics events to understand user behavior
 
 ---
 
-## Project Type
+## Figma Link
 
-This is a UX/UI design case study. It is not a fully developed mobile application. The main focus is on user experience design, interface design, prototyping, and usability thinking.
+The Figma file and prototype link are available here:
+
+[View Figma Link](figma-link.txt)
+
+---
+
+## Project Status
+
+This is a UX/UI portfolio case study and prototype.
+
+The current version focuses on product design, UX process, UI structure, design system basics, and documentation. It is not a fully developed app yet.
